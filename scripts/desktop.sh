@@ -8,9 +8,6 @@ sudo apt-get install --yes caffeine
 # Spotify
 sudo snap install spotify
 
-# Calibre 
-sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
-
 # GRUB Customizer
 sudo add-apt-repository --yes ppa:danielrichter2007/grub-customizer
 sudo apt-get update && sudo apt-get install --yes grub-customizer
@@ -40,3 +37,6 @@ sudo apt-get install --yes bleachbit
 
 # Discord
 sudo snap install discord
+
+# Calibre 
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
