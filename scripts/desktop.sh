@@ -22,9 +22,6 @@ sudo apt-get update && sudo apt install --yes remmina remmina-plugin-rdp remmina
 # Firefox
 sudo snap install firefox
 
-# Thunderbird
-sudo snap install thunderbird --beta
-
 # Dropbox
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ~/.dropbox-dist/dropboxd
