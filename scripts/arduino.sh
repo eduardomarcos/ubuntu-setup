@@ -19,4 +19,4 @@ sudo snap install freecad
 snap install mqtt-explorer
 
 # PuTTy
-sudo apt-get install putty
+sudo apt-get install --yes putty
