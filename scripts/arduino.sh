@@ -20,3 +20,6 @@ snap install mqtt-explorer
 
 # PuTTy
 sudo apt-get install --yes putty
+
+# avrdude
+sudo apt-get install --yes avrdude  
