@@ -9,10 +9,14 @@ sudo apt-get update && sudo apt-get install --yes code
 
 # Extensions
 code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension eamodio.gitlens
+code --install-extension michelemelluso.gitignore
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode.cpptools
 code --install-extension platformio.platformio-ide
+code --install-extension redhat.vscode-yaml
 code --install-extension sdras.night-owl
+
 
 # git cola
 sudo apt-get install --yes git-cola
