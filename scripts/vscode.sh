@@ -14,8 +14,5 @@ code --install-extension ms-vscode.cpptools
 code --install-extension platformio.platformio-ide
 code --install-extension sdras.night-owl
 
-# gitkraken
-sudo snap install gitkraken
-
 # git cola
 sudo apt-get install --yes git-cola
