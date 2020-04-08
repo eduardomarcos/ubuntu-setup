@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo apt-get update
 sudo apt-get install --yes curl 
@@ -21,6 +21,3 @@ sudo apt-get install --yes hstr
 sudo apt-get install --yes zsh
 sudo apt-get install --yes fonts-powerline
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-echo "Copying exported zsh configuration..."
-cp ./zsh/.zshrc /home/$USER/

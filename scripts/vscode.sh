@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Visual Studio Code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg

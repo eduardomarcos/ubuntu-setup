@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # wit
 # use it with https://gist.github.com/openback/1138763

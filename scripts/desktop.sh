@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Caffeine
 sudo add-apt-repository --yes ppa:caffeine-developers/ppa
@@ -43,3 +43,7 @@ sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | 
 
 # Joplin
  wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
+
+# Stacer
+sudo add-apt-repository --yes ppa:oguzhaninan/stacer
+sudo apt-get update && sudo apt-get install --yes stacer
