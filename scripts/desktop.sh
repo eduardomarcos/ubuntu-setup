@@ -36,7 +36,7 @@ sudo snap install darktable
 sudo apt-get install --yes bleachbit
 
 # Discord
-sudo snap install discord
+flatpak install -y flathub com.discordapp.Discord
 
 # Calibre 
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin

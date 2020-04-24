@@ -20,3 +20,7 @@ code --install-extension sdras.night-owl
 
 # git cola
 sudo apt-get install --yes git-cola
+
+# Insomnia
+sudo snap install insomnia
+
