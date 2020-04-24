@@ -3,11 +3,10 @@
 sudo apt-get update
 
 # Docker
-sudo apt-get install --yes apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository --yes "deb [arch=amd64] https://download.docker.com/linux/ubuntu  $(lsb_release -cs)  stable"
-sudo apt-get update
-sudo apt-get install --yes docker-ce
+sudo apt-get install --yes docker.io
+sudo systemctl enable --now docker
+docker --version
+
 
 sudo groupadd docker
 sudo usermod -aG docker ${USER}

@@ -12,9 +12,12 @@ sudo apt-get install --yes ranger
 
 # hstr
 # https://github.com/dvorka/hstr
-sudo add-apt-repository --yes ppa:ultradvorka/ppa
-sudo apt-get update
-sudo apt-get install --yes hstr
+cd ~/source
+git clone https://github.com/dvorka/hstr.git
+sudo apt-get install --yes automake gcc make libncursesw5-dev libreadline-dev
+cd ~/source/hstr
+cd ./build/tarball && ./tarball-automake.sh && cd ../..
+./configure && make && sudo make install
 
 # Oh-My-Zsh
 # https://github.com/ohmyzsh/ohmyzsh
