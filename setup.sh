@@ -14,7 +14,7 @@ sudo apt-get install --yes ranger
 # https://github.com/dvorka/hstr
 cd ~/source
 git clone https://github.com/dvorka/hstr.git
-sudo apt-get install --yes automake gcc make libncursesw5-dev libreadline-dev
+sudo apt-get install --yes automake gcc make libncursesw5-dev libreadline-dev pkgconf
 cd ~/source/hstr
 cd ./build/tarball && ./tarball-automake.sh && cd ../..
 ./configure && make && sudo make install
